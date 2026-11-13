@@ -191,3 +191,51 @@ body {
     padding: 30px 20px;
     margin-top: 40px;
 }
+@media screen and (max-width: 768px) {
+    .adriandra_logo, .adriandra_menu {
+        float: none;
+        text-align: center;
+    }
+    .adriandra_menu ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+    .adriandra_hero {
+        padding: 30px 20px;
+    }
+    .adriandra_hero_teks, .adriandra_hero_gambar {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    
+    .adriandra_tombol_biru, .adriandra_tombol_putih {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    .adriandra_laptop_css {
+        transform: scale(0.8);
+        transform-origin: top center;
+        margin-top: 20px;
+    }
+    
+    .adriandra_about_teks, .adriandra_about_foto {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .adriandra_about_foto {
+        margin-top: 20px;
+    }
+    
+    .adriandra_kotak_project {
+        width: 100%;
+        float: none;
+        margin-right: 0;
+        box-sizing: border-box;
+    }
+}
